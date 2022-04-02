@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/application_background"
+    android:padding="45dp"
+    tools:context=".profile_settings_activity">
+
+  <TextView
+      android:id="@+id/textViewUserPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:textColor="@color/lightgray"
+      android:textSize="18sp"
+      android:inputType="textPassword"
+      app:layout_constraintStart_toStartOf="@+id/textViewPasswordTitle"
+      app:layout_constraintTop_toBottomOf="@+id/textViewPasswordTitle" />
+
+  <ImageButton
+      android:id="@+id/imageButton_updateEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/ic_baseline_edit_24"
+      android:contentDescription="Mail adresimi düzenle"
+      android:onClick="editEmailEvent_OnClick"
+      app:layout_constraintBottom_toBottomOf="@+id/textViewUserEmail"
+      app:layout_constraintEnd_toEndOf="@+id/textViewEmailTitle"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textViewUserEmail"
+      app:layout_constraintTop_toTopOf="@+id/textViewUserEmail"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+  <TextView
+      android:id="@+id/textViewPasswordTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="Parola"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewUserEmail" />
+
+  <ImageView
+      android:id="@+id/PageLogo"
+      android:layout_width="192dp"
+      android:layout_height="192dp"
+      android:layout_gravity="center"
+      android:background="@mipmap/applicationlogo"
+      android:contentDescription="TODO"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <TextView
+      android:id="@+id/textViewUserFullName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="12dp"
+      android:inputType="textPersonName"
+      android:maxLength="25"
+      android:minHeight="48dp"
+      android:padding="10dp"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textColorHint="#757575"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PageLogo"
+      tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+  <TextView
+      android:id="@+id/textViewEmailTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="E-Posta"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewUserFullName" />
+
+  <TextView
+      android:id="@+id/textViewUserEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:textColor="@color/lightgray"
+      android:textSize="18sp"
+      app:layout_constraintStart_toStartOf="@+id/textViewEmailTitle"
+      app:layout_constraintTop_toBottomOf="@+id/textViewEmailTitle" />
+
+
+  <ImageButton
+      android:id="@+id/imageButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/ic_baseline_edit_24"
+      android:contentDescription="parolamı düzenle"
+      android:onClick="editPasswordEvent_OnClick"
+      app:layout_constraintBottom_toBottomOf="@+id/textViewUserPassword"
+      app:layout_constraintEnd_toEndOf="@+id/textViewPasswordTitle"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textViewUserPassword"
+      app:layout_constraintTop_toTopOf="@+id/textViewUserPassword"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/btn_back"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:background="@color/application_darkbackground"
+      android:text="@string/BackTextString"
+      android:textAllCaps="false"
+      android:textColor="@color/white"
+      android:textSize="16sp"
+      android:theme="@style/CardView.Light"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

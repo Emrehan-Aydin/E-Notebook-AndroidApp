@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myprojectloginpage" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProjectLoginPage.NoActionBar" >
+        <activity
+            android:name="activity_note_readandwritepage"
+            android:exported="false" />
+        <activity
+            android:name=".activity_update_passwordpage$Activity_noteEditor"
+            android:exported="false" />
+        <activity
+            android:name=".activity_update_passwordpage"
+            android:exported="false" />
+        <activity
+            android:name=".profile_settings_activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_update_emailpage"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".registerpage_activity"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage_activity"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage_activity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
