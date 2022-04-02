@@ -24,13 +24,13 @@
 ><img src="https://user-images.githubusercontent.com/78824631/161389157-7ec90ad6-1db6-497b-bfb3-884fdf73d725.png" width="240" height="450">
 ## Ana Sayfa
 ><img src="https://user-images.githubusercontent.com/78824631/161389321-b7fc912b-e1a6-49bb-9092-2ea845ac53bc.png" width="240" height="450">
-## Hesap Ayarlarım 
+## Hesap Ayarları Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389341-301315e2-5a05-44ed-8663-64654bc7006e.png" width="240" height="450">
-## E Mail Güncelleme 
+## E Mail Güncelleme Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389362-99b17d5e-5a1d-49c1-94e9-33a0252a5e69.png" width="240" height="450">
-## Parola Güncelleme
+## Parola Güncelleme Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389377-2a1932de-85d1-4a82-b2b2-8d67bd47fabe.png" width="240" height="450">
-## Not Editörü 
+## Not Düzenleme Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389426-8209667c-1c02-4577-a746-c0f7dd25ee7e.png" width="240" height="450">
 
 ## Proje Özeti
