@@ -122,10 +122,12 @@
         android:background="@color/application_darkbackground"
         android:text="@string/btn_updateNameText"
         android:textColor="@color/white"
+        android:layout_marginHorizontal="60dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textEdit_CurrentPassword"
-        app:layout_constraintVertical_bias="0.616"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.616" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
