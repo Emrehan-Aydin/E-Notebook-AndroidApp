@@ -1,7 +1,12 @@
 package com.example.myprojectloginpage;
 
+import static com.example.myprojectloginpage.loginpage_activity.isAnyPassword;
+import static com.example.myprojectloginpage.loginpage_activity.isAnyUserMail;
+import static com.example.myprojectloginpage.loginpage_activity.sharedPreferenc;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -124,6 +129,7 @@ public class mainpage_activity extends AppCompatActivity {
                 current_user.setuId(uid);
                 getNotes();
                 setWigetValues();
+                AddLoginCache();
                 loadingMessage.dismiss();
             }
 
@@ -146,6 +152,7 @@ public class mainpage_activity extends AppCompatActivity {
     }
 
     private void BackToLoginPage() {
+        ClearLoginCache();
         Intent backIntent = new Intent(mainpage_activity.this, loginpage_activity.class);
         startActivity(backIntent);
         finish();
@@ -197,5 +204,21 @@ public class mainpage_activity extends AppCompatActivity {
         alert.setPositiveButton("Evet", (dialogInterface, i) -> BackToLoginPage());
         alert.setNegativeButton("Hayır", (dialogInterface, i) -> Toast.makeText(mainpage_activity.this,"Çıkış İptal Edildi",Toast.LENGTH_SHORT).show());
         alert.show();
+    }
+    private void ClearLoginCache()
+    {
+        SharedPreferences pref = getSharedPreferences(sharedPreferenc,MODE_PRIVATE);
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putString(isAnyUserMail,null);
+        editor.putString(isAnyPassword,null);
+        editor.apply();
+    }
+    private void AddLoginCache()
+    {
+        SharedPreferences pref = getSharedPreferences(sharedPreferenc,MODE_PRIVATE);
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putString(isAnyUserMail,current_user.getUserEmail());
+        editor.putString(isAnyPassword,current_user.getUserPassword());
+        editor.apply();
     }
 }

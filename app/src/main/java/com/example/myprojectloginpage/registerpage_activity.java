@@ -77,6 +77,8 @@ public class registerpage_activity extends AppCompatActivity {
                         Save_User_RealTime(mAuth.getUid());
                         load_dialog.dismiss();
                         Toast.makeText(registerpage_activity.this, "Kaydınız Başarıyla Oluşturuldu.", Toast.LENGTH_LONG).show();
+
+
                         finish();
                     } else {
                         load_dialog.dismiss();
