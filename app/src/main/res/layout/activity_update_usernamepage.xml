@@ -22,7 +22,7 @@
         android:id="@+id/imageView_infoicon"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_baseline_info_24"
         android:contentDescription="@string/UpdateMailInfoIconDescription"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/application_lightbackground"
-        android:padding="25dp"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -88,15 +88,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="35dp"
-        android:maxLength="25"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:hint="@string/EnterNewSurname"
         android:inputType="textCapWords"
+        android:maxLength="25"
         android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/lightgray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textEdit_userName" />
 
@@ -124,6 +124,7 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
         app:layout_constraintTop_toBottomOf="@+id/textEdit_CurrentPassword"
+        app:layout_constraintVertical_bias="0.616"
         tools:layout_editor_absoluteX="0dp" />
 
 
