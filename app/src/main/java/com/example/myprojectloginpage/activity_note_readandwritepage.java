@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,8 +33,8 @@ public class activity_note_readandwritepage extends AppCompatActivity {
     }
 
     private void Initalize() {
-        Button btn_deleteNote = findViewById(R.id.btn_deletenote);
-        btn_deleteNote.setOnClickListener(this::deleteNoteOnClick);
+        ImageButton btn_deleteNote = findViewById(R.id.btn_deletenote);
+        btn_deleteNote.setOnClickListener(this::DeleteAlert);
          note_Title = findViewById(R.id.textview_note_title);
          note_Context = findViewById(R.id.MultiLineText_Context);
         Intent getIntent = getIntent();
@@ -93,12 +94,11 @@ public class activity_note_readandwritepage extends AppCompatActivity {
         Toast.makeText(activity_note_readandwritepage.this, note.getNote_Title() + " Başlıklı Not Silindi", Toast.LENGTH_LONG).show();
         finish();
     }
-
     private void DeleteNoteonFailure(Exception e) {
         Toast.makeText(activity_note_readandwritepage.this, note.getNote_Title() + " Başlıklı Not Silinirken Hata Oluştu!", Toast.LENGTH_LONG).show();
     }
 
-    private void deleteNoteOnClick(View view) {
+    private void deleteNoteOnClick() {
         FirebaseDatabase.getInstance().getReference("KullanıcıNotları")
                 .child(current_user.getuId())
                 .child(String.valueOf(note.getNote_id())).removeValue()
@@ -113,5 +113,15 @@ public class activity_note_readandwritepage extends AppCompatActivity {
         } else {
             saveAlert();
         }
+    }
+    private void DeleteAlert(View view)
+    {
+        AlertDialog.Builder alert = new AlertDialog.Builder(activity_note_readandwritepage.this);
+        alert.setTitle(note.getNote_Title());
+        alert.setMessage("Bu Notu silmek istiyor musunuz ?");
+        alert.setPositiveButton("Evet", (dialogInterface, i) -> deleteNoteOnClick());
+        alert.setNegativeButton("Hayır", (dialogInterface, i) -> Toast.makeText(activity_note_readandwritepage.this,"Silme işlem iptal Edildi",Toast.LENGTH_SHORT).show());
+        alert.show();
+
     }
 }

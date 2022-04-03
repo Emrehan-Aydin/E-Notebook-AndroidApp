@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     android:background="@color/application_background"
-    tools:context=".activity_update_emailpage">
+    tools:context=".activity_update_usernamepage">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_cancel"
@@ -44,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/EmailPage_title"
+            android:text="@string/UserNamePage_title"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="14sp"
@@ -60,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/mailPage_info"
+        android:text="@string/UserNamePage_info"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -69,13 +68,14 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView_infoicon" />
 
     <EditText
-        android:id="@+id/textEdit_userEmail"
+        android:id="@+id/textEdit_userName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="35dp"
         android:autofillHints=""
-        android:hint="@string/EnterNewEmail"
-        android:inputType="textEmailAddress"
+        android:hint="@string/EnterNewName"
+        android:inputType="textCapWords"
+        android:maxLength="25"
         android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/lightgray"
@@ -84,7 +84,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/textEdit_confirmPassword"
+        android:id="@+id/textEdit_userSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:maxLength="25"
+        android:autofillHints=""
+        android:hint="@string/EnterNewSurname"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightgray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEdit_userName" />
+
+    <EditText
+        android:id="@+id/textEdit_CurrentPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="35dp"
@@ -96,19 +113,18 @@
         android:textColorHint="@color/lightgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textEdit_userEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textEdit_userSurname" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_UpdateUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="60dp"
         android:background="@color/application_darkbackground"
-        android:text="@string/btn_updatemailText"
+        android:text="@string/btn_updateNameText"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textEdit_confirmPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/textEdit_CurrentPassword"
+        tools:layout_editor_absoluteX="0dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

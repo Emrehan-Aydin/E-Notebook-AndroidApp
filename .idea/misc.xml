@@ -18,6 +18,7 @@
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2395" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_outline_accountname_circle_24.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_sharp_delete_forever_24.xml" value="0.194" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/launch_background.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/notecorneticon.xml" value="0.194" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/shape_circle.xml" value="0.1755" />
@@ -25,13 +26,14 @@
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_main.xml" value="0.15841584158415842" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_main_page.xml" value="0.264" />
-        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_note_readandwritepage.xml" value="0.2128146453089245" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_note_readandwritepage.xml" value="0.24157020634121792" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_noteeditor.xml" value="0.16979166666666667" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_profile_page.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_profile_settings.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_register_page.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_emailpage.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_passwordpage.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_usernamepage.xml" value="0.16" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/fragment_first.xml" value="0.11302083333333333" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/fragment_second.xml" value="0.11302083333333333" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/notecorneticon.xml" value="0.209375" />

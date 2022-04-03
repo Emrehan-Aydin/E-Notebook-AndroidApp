@@ -20,7 +20,7 @@
     <string name="EnterNewEmail">E-posta adresi girin.</string>
     <string name="btn_updatemailText">E-Posta Adresini güncelle</string>
     <string name="mailPage_info">E-Posta Adresinizi Değiştirmek için \n aşağıdaki bilgileri eksiksiz doldurunuz.</string>
-    <string name="UpdateMailInfoIconDescription">E-Posta Adresinizi Değiştirmek İçin Aşağıdaki Bilgileri Eksiksiz Doldurunuz.</string>
+    <string name="UpdateMailInfoIconDescription">E-Posta Adresinizi Değiştirmek İçin \n Aşağıdaki Bilgileri Eksiksiz Doldurunuz.</string>
     <string name="enterCurrrentPassword">Şifrenizi giriniz</string>
     <string name="EnterNameTint">İsim</string>
     <string name="EnterSurnameTint">Soyisim</string>
@@ -32,4 +32,9 @@
     <string name="RegisterPageButtonText">Kayıt olmak için tıklayınız.</string>
     <string name="CancelText">İptal Et</string>
     <string name="BackTextString">Geri</string>
+    <string name="UserNamePage_title">Kullanıcı İsmi \n Güncelleme Sayfası</string>
+    <string name="EnterNewName">Adınızı Giriniz</string>
+    <string name="EnterNewSurname">Soyadınızı Giriniz</string>
+    <string name="UserNamePage_info">Kullanıcı Adınızı Değiştirmek İçin \n Aşağıdaki Bilgileri Eksiksiz Doldurunuz.</string>
+    <string name="btn_updateNameText">İsimimi Güncelle</string>
 </resources>

@@ -13,7 +13,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.myprojectloginpage.Adapter.RecycleViewAdapter;
 import com.example.myprojectloginpage.Dto.NoteDto;
 import com.example.myprojectloginpage.Dto.UserDto;
@@ -25,6 +24,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -115,7 +115,7 @@ public class mainpage_activity extends AppCompatActivity {
     }
     private void GetUserInfo() {
         DatabaseReference refdb = FirebaseDatabase.getInstance().getReference("Kullanıcılar").child(uid);
-        refdb.addListenerForSingleValueEvent(new ValueEventListener() {
+        refdb.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                User user  = snapshot.getValue(User.class);
@@ -169,7 +169,6 @@ public class mainpage_activity extends AppCompatActivity {
                 {
                     current_user_notes=null;
                     InitializeRecycleAdapter();
-                    Toast.makeText(mainpage_activity.this,"Hiç notunuz yok.",Toast.LENGTH_LONG).show();
                 }
             }
 

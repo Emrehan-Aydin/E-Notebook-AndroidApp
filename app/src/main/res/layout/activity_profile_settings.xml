@@ -21,12 +21,11 @@
       app:layout_constraintTop_toBottomOf="@+id/textViewPasswordTitle" />
 
   <ImageButton
-      android:id="@+id/imageButton_updateEmail"
+      android:id="@+id/imgbtn_UpdateEmail"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/ic_baseline_edit_24"
       android:contentDescription="Mail adresimi düzenle"
-      android:onClick="editEmailEvent_OnClick"
       app:layout_constraintBottom_toBottomOf="@+id/textViewUserEmail"
       app:layout_constraintEnd_toEndOf="@+id/textViewEmailTitle"
       app:layout_constraintHorizontal_bias="1.0"
@@ -62,22 +61,37 @@
 
   <TextView
       android:id="@+id/textViewUserFullName"
-      android:layout_width="match_parent"
+      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="12dp"
       android:inputType="textPersonName"
       android:maxLength="25"
+      android:minWidth="48dp"
       android:minHeight="48dp"
       android:padding="10dp"
-      android:textAlignment="center"
+      android:textAlignment="textStart"
       android:textColor="@color/white"
       android:textColorHint="#757575"
       android:textSize="24sp"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/PageLogo"
       tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+  <ImageButton
+      android:id="@+id/imgbtn_UpdateUserName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/ic_baseline_edit_24"
+      android:contentDescription="Mail adresimi düzenle"
+
+      app:layout_constraintBottom_toBottomOf="@+id/textViewUserFullName"
+      app:layout_constraintEnd_toEndOf="@+id/textViewEmailTitle"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textViewUserFullName"
+      app:layout_constraintTop_toTopOf="@+id/textViewUserFullName"
+      tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
   <TextView
       android:id="@+id/textViewEmailTitle"
@@ -104,12 +118,11 @@
 
 
   <ImageButton
-      android:id="@+id/imageButton"
+      android:id="@+id/imgbtn_UpdatePassword"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/ic_baseline_edit_24"
       android:contentDescription="parolamı düzenle"
-      android:onClick="editPasswordEvent_OnClick"
       app:layout_constraintBottom_toBottomOf="@+id/textViewUserPassword"
       app:layout_constraintEnd_toEndOf="@+id/textViewPasswordTitle"
       app:layout_constraintHorizontal_bias="1.0"

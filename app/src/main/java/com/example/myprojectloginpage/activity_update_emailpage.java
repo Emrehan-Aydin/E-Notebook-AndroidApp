@@ -27,7 +27,7 @@ public class activity_update_emailpage extends AppCompatActivity {
         currentUser = (UserDto) getIntent.getSerializableExtra("currentUser");
         textEdit_userEmail = findViewById(R.id.textEdit_userEmail);
         editTextPasswordConfirm = findViewById(R.id.textEdit_confirmPassword);
-        Button btn_UpdateEmail = findViewById(R.id.btn_UpdateEmail);
+        Button btn_UpdateEmail = findViewById(R.id.btn_UpdateUserName);
 
         Button btn_Cancel = findViewById(R.id.btn_cancel);
         btn_Cancel.setOnClickListener(view -> onBackPressed());
