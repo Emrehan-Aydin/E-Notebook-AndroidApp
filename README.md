@@ -25,13 +25,15 @@
 ## Ana Sayfa
 ><img src="https://user-images.githubusercontent.com/78824631/161389321-b7fc912b-e1a6-49bb-9092-2ea845ac53bc.png" width="240" height="450">
 ## Hesap Ayarları Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161389341-301315e2-5a05-44ed-8663-64654bc7006e.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/161433217-3a3276a6-8e7d-45d7-836a-527b0a708f99.png" width="240" height="450">
 ## E Mail Güncelleme Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389362-99b17d5e-5a1d-49c1-94e9-33a0252a5e69.png" width="240" height="450">
 ## Parola Güncelleme Sayfası
 ><img src="https://user-images.githubusercontent.com/78824631/161389377-2a1932de-85d1-4a82-b2b2-8d67bd47fabe.png" width="240" height="450">
+## Kullanıcı İsmi Güncelleme Sayfası
+><img src="https://user-images.githubusercontent.com/78824631/161433328-4157b7e2-f35e-4201-8383-339caab05049.png" width="240" height="450">
 ## Not Düzenleme Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161389426-8209667c-1c02-4577-a746-c0f7dd25ee7e.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/161433137-9261b4fe-a21b-4b2c-8c2f-64d36da90c43.png" width="240" height="450">
 
 ## Proje Özeti
 > Android Studio - Java ortamında proje gerçekleştirilmiştir.
