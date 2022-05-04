@@ -87,7 +87,11 @@ public class activity_note_readandwritepage extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        saveAlert();
+        if(note_Title.getText().toString().equals(note.getNote_Title()) &&
+                note_Context.getText().toString().equals(note.getNote_Context()) ) {finish();
+        }
+        else{saveAlert();}
+
     }
 
     private void DeleteNoteOnCompleted(Task<Void> task) {

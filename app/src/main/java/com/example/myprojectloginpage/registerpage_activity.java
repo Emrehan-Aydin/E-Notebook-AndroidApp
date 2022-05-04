@@ -1,7 +1,9 @@
 package com.example.myprojectloginpage;
 
 
+import android.app.NotificationManager;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
 
 import com.example.myprojectloginpage.myprojectentity.UserRegisterModel;
 import com.google.firebase.auth.FirebaseAuth;
@@ -77,8 +80,6 @@ public class registerpage_activity extends AppCompatActivity {
                         Save_User_RealTime(mAuth.getUid());
                         load_dialog.dismiss();
                         Toast.makeText(registerpage_activity.this, "Kaydınız Başarıyla Oluşturuldu.", Toast.LENGTH_LONG).show();
-
-
                         finish();
                     } else {
                         load_dialog.dismiss();
@@ -93,4 +94,5 @@ public class registerpage_activity extends AppCompatActivity {
                 onBackPressed();
             });
         }
+
     }

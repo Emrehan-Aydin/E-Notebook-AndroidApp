@@ -15,11 +15,12 @@
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.133" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_baseline_password_key_24.xml" value="0.2395" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.124" />
-        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2395" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_outline_accountname_circle_24.xml" value="0.2395" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/ic_sharp_delete_forever_24.xml" value="0.194" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/launch_background.xml" value="0.121" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/logo.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/notecorneticon.xml" value="0.194" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/drawable/shape_circle.xml" value="0.1755" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_login_page.xml" value="0.264" />
@@ -31,16 +32,19 @@
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_profile_page.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_profile_settings.xml" value="0.4" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_register_page.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_splashscreen.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_emailpage.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_passwordpage.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/activity_update_usernamepage.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/fragment_first.xml" value="0.11302083333333333" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/fragment_second.xml" value="0.11302083333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/logo.xml" value="0.144" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/notecorneticon.xml" value="0.209375" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/notes_list_view.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/recyclecardview.xml" value="0.4" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/register_main.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/register_main_page.xml" value="0.16822916666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/layout/splashscreen.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/MyProjectLoginPage/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.133" />
       </map>
