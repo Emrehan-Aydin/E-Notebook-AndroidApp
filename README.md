@@ -18,22 +18,21 @@
 * Sade ve Anlaşılır bir tasarım
 # Sayfa Tasarımları
 ## Giriş Sayfası 
-
-><img src="https://user-images.githubusercontent.com/78824631/161389079-1960c1a9-b678-4aed-80cb-d28adf332390.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215142-b0a904c8-026d-42db-aab5-c4351847b711.png" width="240" height="450">
 ## Kayıt Olma Sayfası 
-><img src="https://user-images.githubusercontent.com/78824631/161389157-7ec90ad6-1db6-497b-bfb3-884fdf73d725.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215199-ae169d4a-1dfb-4a23-9810-1212567f4e42.png" width="240" height="450">
 ## Ana Sayfa
-><img src="https://user-images.githubusercontent.com/78824631/161389321-b7fc912b-e1a6-49bb-9092-2ea845ac53bc.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215261-423cfe81-db4e-4a0c-a1af-ba6133766104.png" width="240" height="450">
 ## Hesap Ayarları Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161433217-3a3276a6-8e7d-45d7-836a-527b0a708f99.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215357-3c8dee5b-e3ce-442c-9ce5-e73c40ac39fe.png" width="240" height="450">
 ## E Mail Güncelleme Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161389362-99b17d5e-5a1d-49c1-94e9-33a0252a5e69.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215425-84e3c71b-8657-4db2-9170-eb6092063d93.png" width="240" height="450">
 ## Parola Güncelleme Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161389377-2a1932de-85d1-4a82-b2b2-8d67bd47fabe.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215468-fbe1bb67-bb05-427b-b650-c68373f982fc.png" width="240" height="450">
 ## Kullanıcı İsmi Güncelleme Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161433328-4157b7e2-f35e-4201-8383-339caab05049.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215538-0cf1a50c-8113-46d4-a600-9ba4f93de836.png" width="240" height="450">
 ## Not Düzenleme Sayfası
-><img src="https://user-images.githubusercontent.com/78824631/161433137-9261b4fe-a21b-4b2c-8c2f-64d36da90c43.png" width="240" height="450">
+><img src="https://user-images.githubusercontent.com/78824631/167215590-c1ae5337-4b20-4fa7-8bd6-7de76044f6fb.png" width="240" height="450">
 
 ## Proje Özeti
 > Android Studio - Java ortamında proje gerçekleştirilmiştir.
