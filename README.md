@@ -1,6 +1,6 @@
 # E-Notebook-AndroidApp
 
-## Porje  
+## Proje  
 > Gün içerisinde bir çok şey ile karşılaşıyoruz. 
 > Bazen akılda kalması zor şeyler olabilir. 
 > Bu nedenle kendimize notlar almamız gerekebiliyor. Bunun en kolay yöntemi şu anda mobil cihazlarımız.
