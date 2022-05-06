@@ -50,8 +50,8 @@
                 android:maxLines="1"
                 android:paddingEnd="150dp"
                 android:singleLine="true"
-                android:text="eqweqweqqweqweqweqweqqweqweqweqweqweqweqwwewq"
-                android:textColor="@color/lightgray"
+                android:text="Hiç İçerik Yok"
+                android:textColor="@color/application_lightbackground"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/Note_Title"
                 app:layout_constraintTop_toBottomOf="@+id/Note_Title" />

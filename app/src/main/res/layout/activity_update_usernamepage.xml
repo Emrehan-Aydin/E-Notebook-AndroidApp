@@ -78,7 +78,7 @@
         android:maxLength="25"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/lightgray"
+        android:textColorHint="@color/hintcolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -95,7 +95,7 @@
         android:maxLength="25"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/lightgray"
+        android:textColorHint="@color/hintcolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textEdit_userName" />
@@ -110,7 +110,7 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/lightgray"
+        android:textColorHint="@color/hintcolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textEdit_userSurname" />
@@ -119,9 +119,9 @@
         android:id="@+id/btn_UpdateUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/application_darkbackground"
+        android:background="@color/application_button"
         android:text="@string/btn_updateNameText"
-        android:textColor="@color/white"
+        android:textColor="@color/application_buttontext"
         android:layout_marginHorizontal="60dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
         app:layout_constraintEnd_toEndOf="parent"
